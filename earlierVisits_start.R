@@ -33,6 +33,6 @@ patients_all_city <- allVisits %>%
   dplyr::group_by(City) %>%
   dplyr::summarise(number = n())
 
-
+#kate's edit
 
 
